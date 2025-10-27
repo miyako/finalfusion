@@ -15,6 +15,9 @@ Source code repository is no longer maintained. Model download links are inactiv
 
 Source code repository is well maintained. Model download links are active.
 
+* FastText
+
+Source code repository is no longer maintained.  
 
 |library|good at finding|
 |:-:|-|
