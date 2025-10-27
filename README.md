@@ -53,14 +53,20 @@ fn main() -> Result<()> {
     let mut reader = BufReader::new(File::open("wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt").unwrap());
 
     /*
-        word embeddings in text format.
+        .txt: word embeddings in text format.
         In this format, each line contains a word followed by its embedding.
         The word and the embedding vector components are separated by a space.
         This format is used by GloVe.
     */
 
-    let embeddings = Embeddings::read_text(&mut reader)
-    .unwrap();
+    let embeddings = Embeddings::read_text(&mut reader).unwrap();
+
+    /*
+        .bin: word embeddings in fasttext format.
+        This format is used by FastText.
+
+        let embeddings = Embeddings::read_fasttext(&mut reader).unwrap();
+    */
 
     let mut out_file = File::create("glove.300d.fifu")?;
     
