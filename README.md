@@ -15,11 +15,11 @@ On the other hand they might still be useful for basic semantic searches where a
 
 ## Solutions
 
-|library|good at finding|repository|original model|
-|:-:|-|:-:|:-:|
-|[GloVe](https://nlp.stanford.edu/projects/glove/)|global co-occurrence patterns|active|[available](https://nlp.stanford.edu/projects/glove/)|
-|[Word2Vec](https://code.google.com/archive/p/word2vec/)|semantic similarity|n/a|n/a|
-|[FastText](https://fasttext.cc)|morphologically rich languages |n/a|[available](https://fasttext.cc/docs/en/crawl-vectors.html)|
+|library|good at finding|repository|original model|developer|
+|:-:|-|:-:|:-:|-|
+|[GloVe](https://nlp.stanford.edu/projects/glove/)|global co-occurrence patterns|active|[available](https://nlp.stanford.edu/projects/glove/)|Stanford University|
+|[Word2Vec](https://code.google.com/archive/p/word2vec/)|semantic similarity|n/a|n/a|Google|
+|[FastText](https://fasttext.cc)|morphologically rich languages |n/a|[available](https://fasttext.cc/docs/en/crawl-vectors.html)|Meta|
 
 [finalfusion](https://docs.rs/finalfusion/latest/finalfusion/) can handle all 3 model formats. But the `.fifu` pretrained models are [unavailable](https://finalfusion.github.io/pretrained). Models can be [converted](https://docs.rs/finalfusion/latest/finalfusion/compat/index.html) to `.fifu`.
 
