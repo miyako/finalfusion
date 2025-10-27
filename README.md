@@ -29,7 +29,7 @@ This repository is primarily a research project to understand the evolution of n
 |GloVe|2024 Wikipedia + Gigaword 5, 300d|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|
 |GloVe|2024 Wikipedia + Gigaword 5, 200d|||
 |GloVe|2024 Wikipedia + Gigaword 5, 100d|||
-|GloVe|2024 Wikipedia + Gigaword 5, 50d|||
+|GloVe|2024 Wikipedia + Gigaword 5, 50d|285.7 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.50d.fifu)|
 
 
 ## Converter 
