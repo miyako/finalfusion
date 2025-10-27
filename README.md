@@ -5,7 +5,7 @@ Classic Natural Language Processing for 4D
 
 Before transformer-based LLMs, there were static linear embeddings; `GloVe` `Word2Vec` `FastText` being the most popular.
 
-This repository is primarily a research project to understand the evolution of natural language processing technology and how it leads to modern AI. That said, it might be useful for basic semantic search where an LLM might be an overkill.
+This repository is primarily a research project to understand the evolution of natural language processing technology and how it leads to modern AI. That said, it might be useful for basic semantic search where an LLM would be an overkill.
 
 ## Solutions
 
