@@ -31,7 +31,6 @@ This repository is primarily a research project to understand the evolution of n
 |GloVe|2024 Wikipedia + Gigaword 5|100|537.5 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.100d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|50|285.7 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.50d.fifu)|English|
 
-
 ## Converter 
 
 Rust code to convert GloVe model to finalfusion
@@ -87,3 +86,6 @@ fn main() -> Result<()> {
 }
 ```
 
+## Server
+
+A simple HTTP server that converts text to vector.
