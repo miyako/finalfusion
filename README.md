@@ -17,7 +17,7 @@ This repository is primarily a research project to understand the evolution of n
 
 [finalfusion](https://docs.rs/finalfusion/latest/finalfusion/) can handle all 3 models. But the `.fifu` pretrained models are [unavailable](https://finalfusion.github.io/pretrained).
 
-## Model
+## Models
 
 2024 Wikipedia + Gigaword 5 (11.9B tokens, 1.2M vocab, uncased, 300d vectors, 1.6 GB download) from GloVe converted to `.fifu` format is available in [releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu).
  
