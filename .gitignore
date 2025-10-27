@@ -2,3 +2,6 @@ rust/finalfusion-server/target/*
 rust/finalfusion-server/finalfusion-server
 rust/finalfusion-server/finalfusion-server.dmg
 rust/finalfusion-server/finalfusion-server.exe
+models/GloVe/*
+rust/finalfusion-converter/target/*
+models/*
