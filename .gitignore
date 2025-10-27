@@ -5,3 +5,5 @@ rust/finalfusion-server/finalfusion-server.exe
 models/GloVe/*
 rust/finalfusion-converter/target/*
 models/*
+rust/finalfusion-converter/finalfusion-converter
+rust/finalfusion-converter/finalfusion-converter.dmg
