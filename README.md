@@ -30,13 +30,28 @@ On the other hand they might still be useful for basic semantic searches where a
 |FastText|Common Crawl and Wikipedia|300|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|English|
 |FastText|Common Crawl and Wikipedia|300|||French|
 |FastText|Common Crawl and Wikipedia|300|||German|
-|FastText|Common Crawl and Wikipedia|300|||Japanese|
-|Word2Vec|Google News dataset|300||||English|
+|~~FastText~~|~~Common Crawl and Wikipedia~~|~~300~~|||~~Japanese~~|
+|~~Word2Vec~~|~~Google News dataset~~|~~300~~|||~~English~~|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|200|1.06 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.200d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|100|537.5 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.100d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|50|285.7 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.50d.fifu)|English|
 
+> [!WARNING]
+> `Embeddings::read_fasttext` fails on Japanese model.  
+> ```
+> called `Result::unwrap()` on an `Err` value:`
+> Format("Token contains invalid UTF-8: incomplete utf-8 byte sequence from index 0")
+> ```
+
+> [!WARNING]
+> `Embeddings::read_word2vec_binary` fails on Google Word2Vec model.  
+> ```
+> assertion `left == right` failed: words contained duplicate entries.
+>  left: 3000000
+> right: 2999997
+> ```
+ 
 ## Converter 
 
 Rust code to convert GloVe model to finalfusion
@@ -95,6 +110,8 @@ fn main() -> Result<()> {
 ## Server
 
 A simple HTTP server that converts text to vector. Words are separated by word boundaries. Every word is represented by a vector each. The mean pooling vector is returned in `.aggregate`.
+
+Endpoint URL is `/embeddings`
 
 ### Usage
 
