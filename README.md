@@ -9,7 +9,7 @@ This repository is primarily a research project to understand the evolution of n
 
 ## Solutions
 
-|library|good at finding|repository|model|
+|library|good at finding|repository|original model|
 |:-:|-|:-:|:-:|
 |[GloVe](https://nlp.stanford.edu/projects/glove/)|global co-occurrence patterns|active|[available](https://nlp.stanford.edu/projects/glove/)|
 |[Word2Vec](https://code.google.com/archive/p/word2vec/)|semantic similarity|n/a|n/a|
