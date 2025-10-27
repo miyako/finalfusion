@@ -30,6 +30,17 @@ cargo new finalfusion-conveter --bin
 cargo build --release --target aarch64-apple-darwin
 ```
 
+```toml
+[package]
+name = "finalfusion-conveter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+finalfusion = "0.18"
+anyhow = "1.0"
+```
+
 ```go
 use std::fs::File;
 use std::io::BufReader;
