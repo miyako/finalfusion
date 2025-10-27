@@ -19,5 +19,5 @@ This repository is primarily a research project to understand the evolution of n
 
 ## Model
 
-2024 Wikipedia + Gigaword 5 (11.9B tokens, 1.2M vocab, uncased, 300d vectors, 1.6 GB download) from GloVe converted to `.fifu` format is available in releases.
+2024 Wikipedia + Gigaword 5 (11.9B tokens, 1.2M vocab, uncased, 300d vectors, 1.6 GB download) from GloVe converted to `.fifu` format is available in [releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu).
  
