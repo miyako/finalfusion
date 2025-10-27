@@ -15,7 +15,7 @@ This repository is primarily a research project to understand the evolution of n
 |[Word2Vec](https://code.google.com/archive/p/word2vec/)|semantic similarity|n/a|n/a|
 |[FastText](https://fasttext.cc)|morphologically rich languages |n/a|[available](https://fasttext.cc/docs/en/crawl-vectors.html)|
 
-[finalfusion](https://docs.rs/finalfusion/latest/finalfusion/) can handle all 3 models. But the `.fifu` pretrained models are [unavailable](https://finalfusion.github.io/pretrained).
+[finalfusion](https://docs.rs/finalfusion/latest/finalfusion/) can handle all 3 models. But the `.fifu` pretrained models are [unavailable](https://finalfusion.github.io/pretrained). Models can be [converted](https://docs.rs/finalfusion/latest/finalfusion/compat/index.html) to `.fifu`.
 
 ## Models
 
