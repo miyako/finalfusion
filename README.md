@@ -28,8 +28,8 @@ On the other hand they might still be useful for basic semantic searches where a
 |library|description|dimensions|size|download|language|
 |:-:|-|:-:|:-:|:-:|:-:|
 |FastText|Common Crawl and Wikipedia|300|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|English|
-|FastText|Common Crawl and Wikipedia|300|||French|
-|FastText|Common Crawl and Wikipedia|300|||German|
+|FastText|Common Crawl and Wikipedia|300|7.24 GB||French|
+|FastText|Common Crawl and Wikipedia|300|7.24 GB||German|
 |~~FastText~~|~~Common Crawl and Wikipedia~~|~~300~~|||~~Japanese~~|
 |~~Word2Vec~~|~~Google News dataset~~|~~300~~|||~~English~~|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
