@@ -27,7 +27,7 @@ This repository is primarily a research project to understand the evolution of n
 |FastText|Common Crawl and Wikipedia|300|||Japanese|
 |Word2Vec|Google News dataset|300||||English|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
-|GloVe|2024 Wikipedia + Gigaword 5|200|||
+|GloVe|2024 Wikipedia + Gigaword 5|200|1.06 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.200d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|100|537.5 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.100d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|50|285.7 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.50d.fifu)|English|
 
