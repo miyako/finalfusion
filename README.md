@@ -9,7 +9,7 @@ This repository is primarily a research project to learn the evolution of natura
 
 * Language specific
 * Large in size
-* Contaxt agnostic
+* Context agnostic
 
 On the other hand they might still be useful for basic semantic searches where an LLM would be an overkill.
 
