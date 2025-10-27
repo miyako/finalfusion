@@ -19,9 +19,18 @@ This repository is primarily a research project to understand the evolution of n
 
 ## Models
 
-* **Glove**: 2024 Wikipedia + Gigaword 5 (11.9B tokens, 1.2M vocab, uncased, 300d vectors, 1.6 GB download). `.fifu` format is available in [releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu).
+|library|description|size|download|
+|:-:|-|:-:|:-:|
+|FastText|Common Crawl and Wikipedia, 300d, English|4.83 GB||
+|FastText|Common Crawl and Wikipedia, 300d, French|||
+|FastText|Common Crawl and Wikipedia, 300d, German|||
+|FastText|Common Crawl and Wikipedia, 300d, Japanese|||
+|Word2Vec|Google News dataset, 300d|||
+|GloVe|2024 Wikipedia + Gigaword 5, 300d|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|
+|GloVe|2024 Wikipedia + Gigaword 5, 200d|||
+|GloVe|2024 Wikipedia + Gigaword 5, 100d|||
+|GloVe|2024 Wikipedia + Gigaword 5, 50d|||
 
-* **FastText**: Word vectors for English, trained on Common Crawl and Wikipedia using CBOW with position-weights, in dimension 300, with character n-grams of length 5, a window of size 5 and 10 negatives. `.fifu` format is available in [releases]
 
 ## Converter 
 
