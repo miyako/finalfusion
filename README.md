@@ -31,7 +31,7 @@ On the other hand they might still be useful for basic semantic searches where a
 |FastText|Common Crawl and Wikipedia|300|||French|
 |FastText|Common Crawl and Wikipedia|300|||German|
 |FastText|Common Crawl and Wikipedia|300|||Japanese|
-|Word2Vec|Google News dataset|300||||English|
+|Word2Vec|Google News dataset|300|||English|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|200|1.06 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.200d.fifu)|English|
 |GloVe|2024 Wikipedia + Gigaword 5|100|537.5 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.100d.fifu)|English|
