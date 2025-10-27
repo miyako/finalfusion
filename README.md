@@ -20,4 +20,39 @@ This repository is primarily a research project to understand the evolution of n
 ## Models
 
 2024 Wikipedia + Gigaword 5 (11.9B tokens, 1.2M vocab, uncased, 300d vectors, 1.6 GB download) from GloVe converted to `.fifu` format is available in [releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu).
- 
+
+## Converter 
+
+Rust code to convert GloVe model to finalfusion
+
+```
+cargo new finalfusion-conveter --bin
+cargo build --release --target aarch64-apple-darwin
+```
+
+```go
+use std::fs::File;
+use std::io::BufReader;
+use finalfusion::prelude::*;
+use finalfusion::io::WriteEmbeddings;
+use anyhow::Result;
+
+fn main() -> Result<()> {
+        
+    let mut reader = BufReader::new(File::open("wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt").unwrap());
+
+    /*
+    word embeddings in text format. In this format, each line contains a word followed by its embedding. The word and the embedding vector components are separated by a space. This format is used by GloVe.
+    */
+
+    let embeddings = Embeddings::read_text(&mut reader)
+    .unwrap();
+
+    let mut out_file = File::create("glove.300d.fifu")?;
+    
+    embeddings.write_embeddings(&mut out_file)?;
+
+    Ok(())
+}
+```
+
