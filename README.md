@@ -3,7 +3,7 @@ Classic Natural Language Processing for 4D
 
 ## Preamble
 
-Context aware transformer-based LLMs are the state of art tool for text vectorisation. But primitive, static, context-unaware tools can still be useful in some cases. For instance, computational resources are limited on consumer PCs. 
+Context aware transformer-based LLMs are the state of art tool for text vectorisation. Before transformers, there were primitive, static, context-unaware tools for static linear embeddings. 
 
 This repository is primarily a research project to understand the evolution of natural language processing and AI. That said, it might be useful for basic semantic search where an LLM might be an overkill.
 
