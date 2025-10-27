@@ -29,7 +29,7 @@ On the other hand they might still be useful for basic semantic searches where a
 |:-:|-|:-:|:-:|:-:|:-:|
 |FastText|Common Crawl and Wikipedia|300|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|English|
 |FastText|Common Crawl and Wikipedia|300|4.84 GB|[Google Drive](https://drive.google.com/file/d/14HU0pUkYPlFl7YVrSx0d_mlevWC1gve6/view?usp=sharing)|French|
-|FastText|Common Crawl and Wikipedia|300|4.84 GB||German|
+|FastText|Common Crawl and Wikipedia|300|4.84 GB|[Google Drive](https://drive.google.com/file/d/16TAR3WanmhfLev-AyJPxNIDgkPAsV9b3/view?usp=sharing)|German|
 |~~FastText~~|~~Common Crawl and Wikipedia~~|~~300~~|||~~Japanese~~|
 |~~Word2Vec~~|~~Google News dataset~~|~~300~~|||~~English~~|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
