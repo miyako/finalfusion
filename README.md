@@ -3,7 +3,7 @@ Classic Natural Language Processing for 4D
 
 ## Preamble
 
-Before transformer-based LLMs, there were static linear embeddings; `GloVe` `Word2Vec` `FastText` being the most popular.
+Before transformer-based LLMs, there were static linear embeddings; `GloVe` `Word2Vec` `FastText` among the most popular.
 
 This repository is primarily a research project to learn the evolution of natural language processing technology and the path to modern AI. Compared to LLMs, early models have notable limitations:
 
