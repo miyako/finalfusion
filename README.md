@@ -28,8 +28,8 @@ On the other hand they might still be useful for basic semantic searches where a
 |library|description|dimensions|size|download|language|
 |:-:|-|:-:|:-:|:-:|:-:|
 |FastText|Common Crawl and Wikipedia|300|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|English|
-|FastText|Common Crawl and Wikipedia|300|||French|
-|FastText|Common Crawl and Wikipedia|300|||German|
+|FastText|Common Crawl and Wikipedia|300|4.84 GB||French|
+|FastText|Common Crawl and Wikipedia|300|4.84 GB||German|
 |~~FastText~~|~~Common Crawl and Wikipedia~~|~~300~~|||~~Japanese~~|
 |~~Word2Vec~~|~~Google News dataset~~|~~300~~|||~~English~~|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
@@ -54,58 +54,22 @@ On the other hand they might still be useful for basic semantic searches where a
  
 ## Converter 
 
-Rust code to convert GloVe model to finalfusion
+Convert `FastText` `Word2Vec` `GloVe` model to finalfusion format.
+
+
+### Usage
 
 ```
-cargo new finalfusion-conveter --bin
-cargo build --release --target aarch64-apple-darwin
+finalfusion-converter --input <model> --output <model>
 ```
 
-```toml
-[package]
-name = "finalfusion-conveter"
-version = "0.1.0"
-edition = "2024"
+Input model format is detected by file extension.
 
-[dependencies]
-finalfusion = "0.18"
-anyhow = "1.0"
-```
-
-```go
-use std::fs::File;
-use std::io::BufReader;
-use finalfusion::prelude::*;
-use finalfusion::io::WriteEmbeddings;
-use anyhow::Result;
-
-fn main() -> Result<()> {
-        
-    let mut reader = BufReader::new(File::open("wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt").unwrap());
-
-    /*
-        .txt: word embeddings in text format.
-        In this format, each line contains a word followed by its embedding.
-        The word and the embedding vector components are separated by a space.
-        This format is used by GloVe.
-    */
-
-    let embeddings = Embeddings::read_text(&mut reader).unwrap();
-
-    /*
-        .bin: word embeddings in fasttext format.
-        This format is used by FastText.
-
-        let embeddings = Embeddings::read_fasttext(&mut reader).unwrap();
-    */
-
-    let mut out_file = File::create("glove.300d.fifu")?;
-    
-    embeddings.write_embeddings(&mut out_file)?;
-
-    Ok(())
-}
-```
+|extension|format|api|
+|-|:-:|-|
+|.bin|FastText|Embeddings::read_fasttext|
+|.vec|Word2Vec|Embeddings::read_word2vec_binary|
+|.txt|GloVe|Embeddings::read_text|
 
 ## Server
 
