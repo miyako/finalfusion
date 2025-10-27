@@ -15,11 +15,11 @@ On the other hand they might still be useful for basic semantic searches where a
 
 ## Solutions
 
-|library|good at finding|repository|original model|
-|:-:|-|:-:|:-:|
-|[GloVe](https://nlp.stanford.edu/projects/glove/)|global co-occurrence patterns|active|[available](https://nlp.stanford.edu/projects/glove/)|
-|[Word2Vec](https://code.google.com/archive/p/word2vec/)|semantic similarity|n/a|n/a|
-|[FastText](https://fasttext.cc)|morphologically rich languages |n/a|[available](https://fasttext.cc/docs/en/crawl-vectors.html)|
+|library|good at finding|repository|original model|developer|
+|:-:|-|:-:|:-:|:-:|
+|[GloVe](https://nlp.stanford.edu/projects/glove/)|global co-occurrence patterns|active|[available](https://nlp.stanford.edu/projects/glove/)|Stanford University|
+|[Word2Vec](https://code.google.com/archive/p/word2vec/)|semantic similarity|n/a|n/a|Google|
+|[FastText](https://fasttext.cc)|morphologically rich languages |n/a|[available](https://fasttext.cc/docs/en/crawl-vectors.html)|Meta|
 
 [finalfusion](https://docs.rs/finalfusion/latest/finalfusion/) can handle all 3 model formats. But the `.fifu` pretrained models are [unavailable](https://finalfusion.github.io/pretrained). Models can be [converted](https://docs.rs/finalfusion/latest/finalfusion/compat/index.html) to `.fifu`.
 
@@ -28,8 +28,8 @@ On the other hand they might still be useful for basic semantic searches where a
 |library|description|dimensions|size|download|language|
 |:-:|-|:-:|:-:|:-:|:-:|
 |FastText|Common Crawl and Wikipedia|300|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|English|
-|FastText|Common Crawl and Wikipedia|300|4.84 GB||French|
-|FastText|Common Crawl and Wikipedia|300|4.84 GB||German|
+|FastText|Common Crawl and Wikipedia|300|4.84 GB|[Google Drive](https://drive.google.com/file/d/14HU0pUkYPlFl7YVrSx0d_mlevWC1gve6/view?usp=sharing)|French|
+|FastText|Common Crawl and Wikipedia|300|4.84 GB|[Google Drive](https://drive.google.com/file/d/16TAR3WanmhfLev-AyJPxNIDgkPAsV9b3/view?usp=sharing)|German|
 |~~FastText~~|~~Common Crawl and Wikipedia~~|~~300~~|||~~Japanese~~|
 |~~Word2Vec~~|~~Google News dataset~~|~~300~~|||~~English~~|
 |GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
