@@ -3,7 +3,7 @@ Classic Natural Language Processing for 4D
 
 ## Preamble
 
-Context aware transformer-based LLMs are the state of art tool for text vectorisation. Before transformers, there were tools for static linear embeddings; `GloVe` `Word2Vec` `FastText` being the most popular.
+Before transformer-based LLMs, there were tools for static linear embeddings; `GloVe` `Word2Vec` `FastText` being the most popular.
 
 This repository is primarily a research project to understand the evolution of natural language processing and AI. That said, it might be useful for basic semantic search where an LLM might be an overkill.
 
