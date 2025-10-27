@@ -19,17 +19,17 @@ This repository is primarily a research project to understand the evolution of n
 
 ## Models
 
-|library|description|size|download|
-|:-:|-|:-:|:-:|
-|FastText|Common Crawl and Wikipedia, 300d, English|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|
-|FastText|Common Crawl and Wikipedia, 300d, French|||
-|FastText|Common Crawl and Wikipedia, 300d, German|||
-|FastText|Common Crawl and Wikipedia, 300d, Japanese|||
-|Word2Vec|Google News dataset, 300d|||
-|GloVe|2024 Wikipedia + Gigaword 5, 300d|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|
-|GloVe|2024 Wikipedia + Gigaword 5, 200d|||
-|GloVe|2024 Wikipedia + Gigaword 5, 100d|537.5 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.100d.fifu)|
-|GloVe|2024 Wikipedia + Gigaword 5, 50d|285.7 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.50d.fifu)|
+|library|description|dimensions|size|download|language|
+|:-:|-|:-:|:-:|:-:|:-:|
+|FastText|Common Crawl and Wikipedia|300|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|English|
+|FastText|Common Crawl and Wikipedia|300|||French|
+|FastText|Common Crawl and Wikipedia|300|||German|
+|FastText|Common Crawl and Wikipedia|300|||Japanese|
+|Word2Vec|Google News dataset|300||||English|
+|GloVe|2024 Wikipedia + Gigaword 5|300|1.57 GB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.300d.fifu)|English|
+|GloVe|2024 Wikipedia + Gigaword 5|200|||
+|GloVe|2024 Wikipedia + Gigaword 5|100|537.5 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.100d.fifu)|English|
+|GloVe|2024 Wikipedia + Gigaword 5|50|285.7 MB|[releases](https://github.com/miyako/finalfusion/releases/tag/glove.50d.fifu)|English|
 
 
 ## Converter 
