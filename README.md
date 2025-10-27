@@ -110,7 +110,7 @@ var $data : Object
 var $embedding1; $embedding2 : 4D.Vector
 ```
 
-```
+```4d
 $request:=Lowercase("The quick brown fox jumps over the lazy dog")
 $status:=HTTP Request(HTTP POST method; "http://127.0.0.1:8080/embeddings"; $request; $response)
 If ($status=200)
