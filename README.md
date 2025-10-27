@@ -111,6 +111,8 @@ fn main() -> Result<()> {
 
 A simple HTTP server that converts text to vector. Words are separated by word boundaries. Every word is represented by a vector each. The mean pooling vector is returned in `.aggregate`.
 
+Endpoint URL is `/embeddings`
+
 ### Usage
 
 ```
