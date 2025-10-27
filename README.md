@@ -21,7 +21,7 @@ This repository is primarily a research project to understand the evolution of n
 
 |library|description|size|download|
 |:-:|-|:-:|:-:|
-|FastText|Common Crawl and Wikipedia, 300d, English|4.83 GB||
+|FastText|Common Crawl and Wikipedia, 300d, English|4.83 GB|[Google Drive](https://drive.google.com/file/d/1z0sNhxmTlsMLi091aQDKCRIz4BGB12CY/view?usp=sharing)|
 |FastText|Common Crawl and Wikipedia, 300d, French|||
 |FastText|Common Crawl and Wikipedia, 300d, German|||
 |FastText|Common Crawl and Wikipedia, 300d, Japanese|||
