@@ -8,3 +8,5 @@ models/*
 rust/finalfusion-converter/finalfusion-converter
 rust/finalfusion-converter/finalfusion-converter.dmg
 rust/finalfusion-converter/finalfusion-converter.exe
+finalfusion/userPreferences.*
+finalfusion/Data/*
