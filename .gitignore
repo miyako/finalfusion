@@ -10,3 +10,4 @@ rust/finalfusion-converter/finalfusion-converter.dmg
 rust/finalfusion-converter/finalfusion-converter.exe
 finalfusion/userPreferences.*
 finalfusion/Data/*
+finalfusion/Project/DerivedData/*
